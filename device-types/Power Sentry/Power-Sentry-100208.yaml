@@ -2,8 +2,14 @@
 manufacturer: Power Sentry
 model: Power Sentry 100208
 slug: power-sentry-100208
+part_number: E87630
 u_height: 0
 is_full_depth: false
+comments: 'Surge Protector'
+power-ports:
+  - name: AC in
+    type: iec-60320-c20
+    maximum_draw: 1875
 power-outlets:
   - name: Outlet1
     type: nema-5-15r
@@ -16,7 +22,3 @@ power-outlets:
   - name: Outlet5
     type: nema-5-15r
   - name: Outlet6
-power-ports:
-  - name: AC in
-    type: iec-60320-c20
-    maximum_draw: 1500
